@@ -1,10 +1,20 @@
-#
+#配置用户名
+git config --global user.name username
+
+#配置邮箱
+git config --global user.email aa@email.com
+
+#项目初始化
 git init
-#
+
+#放文件到仓库
 git add filename
-#
+
+#查看状态
 git status
-#
+
+#文件上架
 git commit -m "first commit"
+
 #
 
