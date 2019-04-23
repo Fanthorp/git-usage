@@ -17,4 +17,13 @@ git status
 git commit -m "first commit"
 
 #回退
+git reset --hard HEAD^
+git reset --hard HEAD^^
+git reset --hard HEAD~10
+git reset --hard 具体版本号
 
+#命令历史
+git reflog
+
+#回退到最后一次add 或者commit
+git checkout -- git-usage.txt
