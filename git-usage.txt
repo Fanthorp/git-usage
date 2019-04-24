@@ -27,3 +27,50 @@ git reflog
 
 #回退到最后一次add 或者commit
 git checkout -- git-usage.txt
+
+#生成rsa
+ssh-keygen -t rsa -C "nhmccjsj@163.com"
+
+#id_ras.pub文件内容张贴到github
+
+#关联远程仓库
+git remote add origin git@github.com:Fanthorp/git-usage.git
+
+#删除关联
+git remote rm origin
+
+#拉取远程内容到本地仓库
+git pull origin master
+
+#推送到远程仓库
+git push origin master
+
+#克隆远程库
+git clone git@github.com:Fanthorp/git-usage.git
+
+#创建.gitignore,并把不想推送到远程的文件名写入此文件中
+touch .gitignore
+
+#创建分支
+git branch 分支名
+
+#切换分支
+git checkout 分支名
+
+#创建与切换同时进行
+git checkout -b 分支名
+
+#查看当前分支
+git branch
+
+
+
+
+
+
+
+
+
+
+
+
