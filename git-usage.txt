@@ -60,11 +60,20 @@ git checkout 分支名
 #创建与切换同时进行
 git checkout -b 分支名
 
+#获取远程分支
+git pull origin 分知名
+
 #查看当前分支
 git branch
 
+#合并分支
+git merge 分支名
 
+#删除分支
+git branch -d 分支名
 
+#分支合并图
+git log --graph
 
 
 
